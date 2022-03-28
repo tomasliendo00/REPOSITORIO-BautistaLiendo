@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Melt</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body id="contacto-contenedor-grid">
+
+    <nav class="encabezado" id="one">
+        <a href="index.html">
+            <img src="img/logoo.jpg" alt="logoo" class="logopag">
+        </a>
+
+        <ol>
+            <li>
+                <a href="index.html"> MELT</a>
+            </li>
+            <li>
+                <a href="promociones.html">SALE</a>
+            </li>
+            <li>
+                <a href="contacto.html"> CONTACTO</a>
+            </li>
+            <li>
+                <a href="devolucion.html">POLITICA DE DEVOLUCION</a>
+            </li>
+            <li>
+                <a href="carrito.html">CARRITO</a>
+            </li>
+        </ol>
+    </nav>
+
+    <main id="two">
+
+        <section class="contacto">
+            <article >
+                <h1 span class="textCenter">CONTACTO</h1>
+                <form action="envio.php" method="post">
+                    <fieldset>
+                        <legend>Tus datos</legend>
+                        <label for="nombre">Nombre y Apellido</label>
+                        <input type="text" placeholder="Nombre y Apellido" name="nombre" id="nombre">
+                        <br>
+                        <label for="email">Email</label>
+                        <input type="email" placeholder="mail@mail.com" name="email" id="email">
+                    </fieldset>
+                    <fieldset>
+                        <legend>Datos de pedido</legend>
+                        <label for="buzos">BUZOS</label>
+                        <input type="checkbox" name="buzos" id="buzos">
+                        <br>
+                        <label for="remeras">REMERAS</label>
+                        <input type="checkbox" name="remeras" id="remeras">
+                    </fieldset>
+                </form>
+                <br>
+                <form action="envio.php" method="post">
+                    <label for="mensaje">
+                        <h3>Deja tu mensaje </h3>
+                    </label><br>
+                    <textarea name="mensaje" id="mensaje" cols="40" rows="10" span class="textblack"> </textarea><br>
+                    <input type="reset" value="Cancelar" span class="textblack">
+                    <input type="submit" value="Enviar" span class="textblack">
+                    <input type="button" value="no hace nada sin programacion" span class="textblack">
+                </form>
+            </article>
+        </section>
+
+    </main>
+
+    <footer class="pie" id="three">
+        <section>
+
+            <h2>SEGUINOS EN REDES SOCIALES</h2>
+
+            <a href="https://instagram.com"><img src="img/instagram.png" alt="logo de instagram" class="redes"></a>
+            <a href="https://facebook.com"><img src="img/tiktok.png" alt="logo de facebook" class="redes"></a>
+            <a href="https://pinterest.com"><img src="img/pinterest.png" alt="logo de pinterest" class="redes"></a>
+        </section>
+
+    </footer>
+
+</body>
+
+</html>
