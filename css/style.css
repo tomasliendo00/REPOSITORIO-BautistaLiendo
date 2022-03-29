@@ -13,6 +13,13 @@ body {
 }
 
 
+/*-----------------animacion----------------------------*/
+
+.scale:hover{
+	transform: scaleX(0.9);
+}
+
+
 /*Titulos ----------------------------------------------*/
 .h1 {
 	text-align: center;
