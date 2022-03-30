@@ -72,6 +72,7 @@ body {
 	color: rgb(0, 0, 0);
 }
 
+
 /* Tamaño de Imagenes -------------------------*/
 
 .logopag {
@@ -94,7 +95,7 @@ body {
 .tamañoImagen {
 	width: 450px;
 	height: auto;
-    margin: 30px;
+	margin: 30px;
 }
 
 
@@ -118,7 +119,7 @@ body {
 
 /* FOOTER ---------------------------------------*/
 .pie {
-	
+
 	background-color: black;
 	text-align: center;
 
@@ -135,17 +136,19 @@ body {
 }
 
 .oferta {
-	text-decoration: line-through;
+	text-decoration: line-through;	
 
 }
 
 /* contacto	----------------------------------------*/
 
 .contacto {
+
 	margin: 50px 180px 300px 180px;
 	padding: 20px;
 	display: flex;
-	justify-content:center ;
+	justify-content: center;
+
 }
 
 /*devoluciones--------------------------------------*/
@@ -159,86 +162,98 @@ body {
 	text-align: center;
 }
 
-#index-contenedor-grid{
-	display:grid;
+#index-contenedor-grid {
+	display: grid;
 	grid-template-columns: auto;
 	grid-template-rows: auto;
 	grid-template-areas: "uno" "dos" "tres" "cuatro";
 }
-#uno{
+
+#uno {
 	grid-area: uno;
 }
-#dos{
+
+#dos {
 	grid-area: dos;
 }
-#tres{
+
+#tres {
 	grid-area: tres;
 }
-#cuatro{
+
+#cuatro {
 	grid-area: cuatro;
 }
-@media (max-width: 991.98px){
-	.tamanoFondo{
+
+@media (max-width: 991.98px) {
+	.tamanoFondo {
 		display: none;
 	}
-    .tamañoImagen {
+
+	.tamañoImagen {
 		width: 300px;
 		height: auto;
 		margin: 15px;
 	}
-	.productos__articulo {	
+
+	.productos__articulo {
 		margin: 0px;
 		padding: 5px;
 	}
+
 	.encabezado ol {
 		display: flex;
 		flex-wrap: wrap;
-	}	
+	}
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
-	.tamanoFondo{
+	.tamanoFondo {
 		display: none;
 	}
-	
-	
+
+
 }
 
 /* grid y media queries CONTACTO ----------------------------*/
 
-#contacto-contenedor-grid{
-	display:grid;
+#contacto-contenedor-grid {
+	display: grid;
 	grid-template-columns: auto;
 	grid-template-rows: auto;
-	grid-template-areas: "one" "two" "three" ;
+	grid-template-areas: "one" "two" "three";
 }
-#one{
+
+#one {
 	grid-area: one;
 }
-#two{
+
+#two {
 	grid-area: two;
 }
-#three{
+
+#three {
 	grid-area: three;
 }
 
-@media (max-width: 991.98px){
-
+@media (max-width: 991.98px) {
 	.encabezado ol {
 		display: flex;
 		flex-wrap: wrap;
-	}	
-	.contacto {
-		margin:50px 0px 200px 0px;
-		padding: 20px;
-	
 	}
-	
+
+	.contacto {
+		margin: 50px 0px 200px 0px;
+		padding: 20px;
+
+	}
+
 }
+
 @media (min-width: 992px) and (max-width: 1199.98px) {
 	#two{
 		background-color: black;
-		
+
 	}
 	
 }

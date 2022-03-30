@@ -4,41 +4,49 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- link de Bootstrap-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<!-- link de Bootstrap-->
 	<title>Home - Melt</title>
-
 	<link rel="stylesheet" href="css/style.css">
-
 </head>
 
 <body>
-	<nav class="encabezado">
-		<a href="index.html">
-			<img src="img/logoo.jpg" alt="logoo" class="logopag">
-		</a>
-
-		<ol>
-			<li>
-				<a href="index.html"> MELT</a>
-			</li>
-			<li>
-				<a href="promociones.html">SALE</a>
-			</li>
-			<li>
-				<a href="contacto.html"> CONTACTO</a>
-			</li>
-			<li>
-				<a href="devolucion.html">POLITICA DE DEVOLUCION</a>
-			</li>
-			<li>
-				<a href="carrito.html">CARRITO</a>
-			</li>
-		</ol>
+	<!--COMIENZA NAV-------------------->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-black" id="uno">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="index.html"><img src="img/logoo.jpg" alt="logo pagina" class="logopag"></a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+				aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="index.html">MELT </a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" href="promociones.html">SALE</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" href="contacto.html">CONTACTO</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" href="devolucion.html">DEVOLUCIONES</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" href="carrito.html">CARRITO</a>
+					</li>
+				</ul>
+			</div>
+		</div>
 	</nav>
+	<!--TERMINA NAV---------------------->
 	<main>
 		<section>
 			<article class="devoluciones">
-				<h1>Politica de devoluciones</h1>
-
+				<h1 class="h3">Politica de devoluciones</h1>
 				<p>Si no estás conforme con nuestro producto, podes solicitar un reintegro del mismo de la siguiente
 					forma:
 					Tenes que acercarte a nuestra oficina y traernos la prenda para que la verifiquemos y asi poder
@@ -49,17 +57,19 @@
 	</main>
 	<footer class="pie">
 		<section>
-
-			<h2>SEGUINOS EN REDES SOCIALES</h2>
+			<h2 class="h3">SEGUINOS EN REDES SOCIALES</h2>
 			<br>
 			<a href="https://instagram.com"><img src="img/instagram.png" alt="logo de instagram" class="redes"></a>
 			<a href="https://facebook.com"><img src="img/tiktok.png" alt="logo de facebook" class="redes"></a>
 			<a href="https://pinterest.com"><img src="img/pinterest.png" alt="logo de pinterest" class="redes"></a>
 		</section>
-
 	</footer>
-
-
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+		integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+		integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
+	</script>
 </body>
 
 </html>
