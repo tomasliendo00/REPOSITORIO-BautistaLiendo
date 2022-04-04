@@ -15,7 +15,7 @@ body {
 
 /*-----------------animacion----------------------------*/
 
-.scale:hover{
+.scale:hover {
 	transform: scaleX(0.9);
 }
 
@@ -33,7 +33,7 @@ body {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	
+
 }
 
 .encabezado ol {
@@ -118,17 +118,18 @@ body {
 
 
 /* FOOTER ---------------------------------------*/
-.footer{
+.footer {
 	background-color: black;
 	text-align: center;
 	bottom: 0;
 	width: -webkit-fill-available;
-	position:absolute;
+	position: absolute;
 }
-.footer2{
+
+.footer2 {
 	background-color: black;
 	text-align: center;
-	
+
 }
 
 /*promociones -----------------------------------*/
@@ -142,7 +143,7 @@ body {
 }
 
 .oferta {
-	text-decoration: line-through;	
+	text-decoration: line-through;
 
 }
 
@@ -168,6 +169,7 @@ body {
 	text-align: center;
 }
 
+/* grid index -----------------------------------------*/
 #index-contenedor-grid {
 	display: grid;
 	grid-template-columns: auto;
@@ -257,9 +259,9 @@ body {
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
-	#two{
+	#two {
 		background-color: black;
 
 	}
-	
+
 }
