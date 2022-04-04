@@ -118,11 +118,17 @@ body {
 
 
 /* FOOTER ---------------------------------------*/
-.pie {
-
+.footer{
 	background-color: black;
 	text-align: center;
-
+	bottom: 0;
+	width: -webkit-fill-available;
+	position:absolute;
+}
+.footer2{
+	background-color: black;
+	text-align: center;
+	
 }
 
 /*promociones -----------------------------------*/
