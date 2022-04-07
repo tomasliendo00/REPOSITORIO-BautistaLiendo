@@ -1,267 +1,149 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+/* CLASES -------------------------------*/
+/*----------------------------------*/
+body {
+  background-color: black; }
 
 * {
-	margin: 0;
-	padding: 0;
-	font-family: 'Roboto', sans-serif;
-	color: whitesmoke;
-}
-
-
-body {
-	background: rgb(0, 0, 91, 100);
-}
-
-
-/*-----------------animacion----------------------------*/
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  color: white; }
 
 .scale:hover {
-	transform: scaleX(0.9);
-}
+  transform: scaleX(0.9); }
 
-
-/*Titulos ----------------------------------------------*/
-.h1 {
-	text-align: center;
-	text-decoration: underline;
-}
-
-/* Encabezado clases ----------------------------------*/
-
-.encabezado {
-	background-color: black;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-
-}
-
-.encabezado ol {
-	display: flex;
-}
-
-.encabezado ol li {
-	list-style: none;
-	margin: 5px;
-}
-
-.encabezado ol li a {
-	text-decoration: none;
-}
-
-
-/* Clases de texto ----------------------------*/
-.textRight {
-	text-align: right;
-}
-
-.textLeft {
-	text-align: left;
-}
-
-.textCenter {
-	text-align: center;
-}
-
-
-.textwhite {
-	color: rgb(255, 255, 255);
-}
-
-.textblack {
-	color: rgb(0, 0, 0);
-}
-
-
-/* Tamaño de Imagenes -------------------------*/
-
+/* TAMAÑO DE IMAGENES --------------------*/
 .logopag {
-	width: 80px;
-	height: auto;
-}
+  width: 80px;
+  height: auto; }
 
 .tamanoFondo {
-	display: flex;
-	justify-content: center;
-	margin-bottom: 100px;
-	margin-top: 100px;
-}
-
-.tamanoFondo img {
-	margin: 10px;
-	width: 1300px;
-}
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+  margin-top: 100px; }
+  .tamanoFondo img {
+    margin: 10px;
+    width: 1300px; }
 
 .tamañoImagen {
-	width: 450px;
-	height: auto;
-	margin: 30px;
-}
-
-
+  width: 450px;
+  height: auto;
+  margin: 30px; }
 
 /* PRODUCTOS ----------------------------------*/
-
 .productos__articulo {
-
-	background-color: black;
-	border: solid 1px white;
-	margin: 100px 200px 100px 200px;
-	padding: 10px;
-	text-decoration: underline;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	text-align: center;
-}
-
-
+  background-color: black;
+  margin: 100px 200px 100px 200px;
+  padding: 10px;
+  text-decoration: underline;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center; }
 
 /* FOOTER ---------------------------------------*/
 .footer {
-	background-color: black;
-	text-align: center;
-	bottom: 0;
-	width: -webkit-fill-available;
-	position: absolute;
-}
+  background-color: #1b1b1b;
+  text-align: center;
+  bottom: 0;
+  width: -webkit-fill-available;
+  position: absolute; }
 
 .footer2 {
-	background-color: black;
-	text-align: center;
-
-}
+  background-color: #1b1b1b;
+  text-align: center; }
 
 /*promociones -----------------------------------*/
-
 .SalePromociones {
-	margin-left: 20px;
-	display: flex;
-	overflow: scroll;
-	text-align: center;
-
-}
+  margin-left: 20px;
+  display: flex;
+  overflow: scroll;
+  text-align: center; }
 
 .oferta {
-	text-decoration: line-through;
-
-}
+  text-decoration: line-through; }
 
 /* contacto	----------------------------------------*/
-
 .contacto {
-
-	margin: 50px 180px 300px 180px;
-	padding: 20px;
-	display: flex;
-	justify-content: center;
-
-}
+  margin: 50px 180px 100px 180px;
+  padding: 20px;
+  display: flex;
+  justify-content: center; }
 
 /*devoluciones--------------------------------------*/
-
 .devoluciones {
-	text-align: center;
-}
+  text-align: center;
+  margin: 30px; }
 
 /* carrito -----------------------------------------*/
 .carrito {
-	text-align: center;
-}
+  text-align: center;
+  margin: 30px; }
 
 /* grid index -----------------------------------------*/
 #index-contenedor-grid {
-	display: grid;
-	grid-template-columns: auto;
-	grid-template-rows: auto;
-	grid-template-areas: "uno" "dos" "tres" "cuatro";
-}
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-template-areas: "uno" "dos" "tres" "cuatro"; }
 
 #uno {
-	grid-area: uno;
-}
+  grid-area: uno; }
 
 #dos {
-	grid-area: dos;
-}
+  grid-area: dos; }
 
 #tres {
-	grid-area: tres;
-}
+  grid-area: tres; }
 
 #cuatro {
-	grid-area: cuatro;
-}
+  grid-area: cuatro; }
 
 @media (max-width: 991.98px) {
-	.tamanoFondo {
-		display: none;
-	}
-
-	.tamañoImagen {
-		width: 300px;
-		height: auto;
-		margin: 15px;
-	}
-
-	.productos__articulo {
-		margin: 0px;
-		padding: 5px;
-	}
-
-	.encabezado ol {
-		display: flex;
-		flex-wrap: wrap;
-	}
-}
+  .tamanoFondo {
+    display: none; }
+  .tamañoImagen {
+    width: 300px;
+    height: auto;
+    margin: 15px; }
+  .productos__articulo {
+    margin: 0px;
+    padding: 5px; }
+  .encabezado ol {
+    display: flex;
+    flex-wrap: wrap; } }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
-	.tamanoFondo {
-		display: none;
-	}
-
-
-}
+  .tamanoFondo {
+    display: none; } }
 
 /* grid y media queries CONTACTO ----------------------------*/
-
 #contacto-contenedor-grid {
-	display: grid;
-	grid-template-columns: auto;
-	grid-template-rows: auto;
-	grid-template-areas: "one" "two" "three";
-}
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-template-areas: "one" "two" "three"; }
 
 #one {
-	grid-area: one;
-}
+  grid-area: one; }
 
 #two {
-	grid-area: two;
-}
+  grid-area: two; }
 
 #three {
-	grid-area: three;
-}
+  grid-area: three; }
 
 @media (max-width: 991.98px) {
-	.encabezado ol {
-		display: flex;
-		flex-wrap: wrap;
-	}
-
-	.contacto {
-		margin: 50px 0px 200px 0px;
-		padding: 20px;
-
-	}
-
-}
+  .encabezado ol {
+    display: flex;
+    flex-wrap: wrap; }
+  .contacto {
+    margin: 50px 0px 200px 0px;
+    padding: 20px; } }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
-	#two {
-		background-color: black;
-
-	}
-
-}
+  #two {
+    background-color: black; } }
