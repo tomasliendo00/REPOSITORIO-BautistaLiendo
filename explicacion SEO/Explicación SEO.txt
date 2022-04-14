@@ -1,0 +1,23 @@
+﻿En el archivo index.html sumé el SEO con las siguientes características:
+* Descripción: mediante la etiqueta meta name description, agregué el siguiente párrafo que explica en pocas palabras el contenido de mi sitio: “Todos los Buzos, hoodies y remeras de la marca"
+* Palabras clave: mediante la etiqueta meta name keywords, agregué las palabras clave que acompañarán a todas las páginas de mi sitio: "productos, buzo ,remeras"
+
+
+ En el archivo promociones.html sumé el SEO con las siguientes características:
+* Descripción: mediante la etiqueta meta name description, agregué el siguiente párrafo que explica en pocas palabras el contenido de mi sitio: “ Buzos hoodies y remeras en promoción"
+* Palabras clave: mediante la etiqueta meta name keywords, agregué las palabras clave que acompañarán a todas las páginas de mi sitio: "promociones, buzos ,remeras , butterfly, flower"
+
+
+ En el archivo contacto.html sumé el SEO con las siguientes características:
+* Descripción: mediante la etiqueta meta name description, agregué el siguiente párrafo que explica en pocas palabras el contenido de mi sitio: “Página para poder contactarte con nosotros"
+* Palabras clave: mediante la etiqueta meta name keywords, agregué las palabras clave que acompañarán a todas las páginas de mi sitio: "contactos, buzo ,remeras, mensaje, pedido, datos"
+
+
+ En el archivo devoluciones.html sumé el SEO con las siguientes características:
+* Descripción: mediante la etiqueta meta name description, agregué el siguiente párrafo que explica en pocas palabras el contenido de mi sitio: “Información sobre la política de devolución de la marca"
+* Palabras clave: mediante la etiqueta meta name keywords, agregué las palabras clave que acompañarán a todas las páginas de mi sitio: "política, devoluciones, devolución"
+
+
+ En el archivo carrito.html sumé el SEO con las siguientes características:
+* Descripción: mediante la etiqueta meta name description, agregué el siguiente párrafo que explica en pocas palabras el contenido de mi sitio: “Aquí se mostraran los productos que hayas mandado al carrito"
+* Palabras clave: mediante la etiqueta meta name keywords, agregué las palabras clave que acompañarán a todas las páginas de mi sitio: "productos, carrito"
