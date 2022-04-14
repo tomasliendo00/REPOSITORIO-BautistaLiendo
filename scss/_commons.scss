@@ -1,0 +1,13 @@
+/* mixin -------*/
+@mixin p-m($padding,$margin){
+    padding:$padding;
+    margin:$margin;
+}
+
+/* map ---------*/
+
+$shadow:(
+    "sh1": 0px 2px 8px #47209978,
+    "sh2": 2px 2px 16px 2px #cbc3e0,
+    "sh3": 2px 2px 4px #412d6b,
+)
