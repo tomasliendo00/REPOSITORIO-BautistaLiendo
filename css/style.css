@@ -68,14 +68,15 @@ body {
 
 /* contacto	----------------------------------------*/
 .contacto {
-  padding: 20px;
+  padding: 10px;
+  margin: 20px;
   display: flex;
   justify-content: center; }
 
 /*devoluciones--------------------------------------*/
 .devoluciones, .carrito {
   text-align: center;
-  margin: 30px; }
+  margin: 100px 20px 600px; }
 
 /* carrito -----------------------------------------*/
 /*shadow--------------------*/
